@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/ceciliamescobedo/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ceciliamescobedo/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to …
@@ -26,6 +27,13 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(libminer)
 ## basic example code
+lib_summary(TRUE)
+#>                                                                    Library
+#> 1               C:/Users/escobedo/AppData/Local/Programs/R/R-4.5.1/library
+#> 2 C:/Users/escobedo/AppData/Local/Temp/Rtmp4ovPbm/temp_libpatha7f867fd1348
+#>   n_packages lib_size
+#> 1        463    1.33G
+#> 2          1   18.31K
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
