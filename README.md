@@ -20,7 +20,7 @@ You can install the development version of libminer from
 pak::pak("ceciliamescobedo/libminer")
 ```
 
-## Example
+## Example 1
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -30,10 +30,10 @@ library(libminer)
 lib_summary(TRUE)
 #>                                                                    Library
 #> 1               C:/Users/escobedo/AppData/Local/Programs/R/R-4.5.1/library
-#> 2 C:/Users/escobedo/AppData/Local/Temp/Rtmp4ovPbm/temp_libpatha7f867fd1348
+#> 2 C:/Users/escobedo/AppData/Local/Temp/Rtmp4ovPbm/temp_libpatha7f851dd2532
 #>   n_packages lib_size
 #> 1        463    1.33G
-#> 2          1   18.31K
+#> 2          1   18.44K
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?

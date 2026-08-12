@@ -30,7 +30,7 @@ You can install the development version of libminer from [GitHub](https://github
 pak::pak("ceciliamescobedo/libminer")
 ```
 
-## Example
+## Example 1
 
 This is a basic example which shows you how to solve a common problem:
 
